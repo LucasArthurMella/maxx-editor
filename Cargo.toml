@@ -1,0 +1,16 @@
+[package]
+name = "maxx-editor"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "maxx-editor"
+
+[dependencies]
+anyhow = "1.0.89"
+crossterm = "0.28.1"
+termion = "4.0.3"
